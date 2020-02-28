@@ -4,28 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00251B"
+    android:background="@drawable/back"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/mytext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#144972"
+        android:background="#DA1C1C"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="129dp"
+        android:layout_marginLeft="101dp"
         android:text="FlashOn Call!"
         android:textColor="@android:color/white"
-        android:textSize="22sp"/>
+        android:textSize="29sp"/>
     <TextView
         android:id="@+id/text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#553D55"
+        android:background="#3F3009"
         android:layout_marginTop="390dp"
-        android:text="Enable The Permission in Setting to Try FlashOn Incoming Calls"
+        android:text="Setup Permissions:"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="22sp"/>
+        android:textSize="23sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="92dp"
+        app:srcCompat="@drawable/flash" />
 
 </RelativeLayout>
